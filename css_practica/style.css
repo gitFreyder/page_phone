@@ -1,0 +1,187 @@
+/* fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Cabin:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,600&family=Poppins:ital,wght@0,300;0,400;0,700;1,500;1,600;1,700&display=swap');
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main style */
+html,body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+h1,
+h2,
+h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* utilidades clases */
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large{
+    font-size: 1.25rem;
+}
+.small{
+    font-size: .8rem;
+}
+
+.display-1{
+    font-size: 72px;
+    font-weight: 300;
+}
+
+.display-2{
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.btn{
+    display:inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn_dark{
+    background: black;
+    border: 1px solid black;
+    color: #FFFF;
+}
+
+.btn_light{
+ 
+    border: 1px solid black;
+    color: black;
+}
+
+form label{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+form .form_group{
+    margin-bottom: 16px;
+}
+
+form .form_control{
+    display: block;
+    width: 100%;
+    padding: 6px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #6f7271;
+    background: #FFFF;
+    border: 1px solid #f9f9f9;
+}
+
+/* navbar */
+#navbar{
+    overflow: auto;
+    padding-top: 20px;
+    height: 10vh;
+}
+
+#navbar a{
+    color: #000;
+}
+
+#navbar .logo{
+float: left;
+padding-top: 16px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+    text-transform: uppercase;
+}
+#navbar li{
+    float: left;
+}
+#navbar li a{
+   display: block;
+   padding: 20px;
+   text-align: center;
+}
+
+.show_case{
+    background-image: url('./images/bacground_img.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+
+
+.showCase_text{
+ 
+    margin-left: 700px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.showCase_text .display_1{
+    font-weight: bold;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+
+
+/* services */
+.services_box img{
+    width: 140px;
+}
+
+.tex_center{ 
+    text-align: center;
+    padding-top: 80px;
+}
+
+.services_box{
+    float: left;
+    width: 33%;
+    padding: 40px;
+    text-align: center;
+}
+.services_box h4{
+    margin-top: 40px;
+    font-weight: lighter;
+}
